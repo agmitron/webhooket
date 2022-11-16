@@ -1,0 +1,20 @@
+{
+  "name": "webhooket",
+  "version": "1.0.0",
+  "description": "A simple WebSocket proxy for your webhooks",
+  "main": "index.js",
+  "repository": "git@github.com:agmitron/webhooket.git",
+  "author": "Alexey <44631357+agmitron@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
